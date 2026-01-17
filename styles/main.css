@@ -1,0 +1,92 @@
+/* ---------- APP BACKGROUND ---------- */
+.stApp {
+    background: linear-gradient(135deg, #0b0b0b 0%, #14001f 45%, #22003a 100%);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.3s ease;
+}
+
+/* ---------- HEADINGS ---------- */
+.main-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #c77dff;
+    margin-top: 25px;
+    text-shadow: 2px 2px 8px rgba(199, 125, 255, 0.7);
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #e0d4ff;
+    margin-bottom: 40px;
+}
+
+/* ---------- INPUT FIELDS ---------- */
+div[data-baseweb="input"] input {
+    background-color: #121212;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid #5a2cbf;
+    transition: all 0.3s ease;
+}
+
+div[data-baseweb="input"] input:hover {
+    border: 1px solid #c77dff;
+    box-shadow: 0 0 10px rgba(199, 125, 255, 0.5);
+}
+
+/* ---------- DATAFRAME ---------- */
+.stDataFrame {
+    background-color: #111111;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- BUTTON ---------- */
+.stButton > button {
+    background: linear-gradient(90deg, #7b2cbf, #c77dff);
+    color: white;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(199, 125, 255, 0.4);
+}
+
+.stButton > button:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(199, 125, 255, 0.6);
+}
+
+/* ---------- TGPA OUTPUT CARD ---------- */
+.tgpa-card {
+    background: #1b0b2f;
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffddff;
+    margin: 20px 0;
+    box-shadow: 0 10px 25px rgba(199, 125, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.tgpa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(199, 125, 255, 0.6);
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    color: gray;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 40px;
+}
