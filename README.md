@@ -1,8 +1,3 @@
-Nice project 👍 — here’s a clean, professional **README.md** you can drop straight into your repo. I’ve written it like a real-world open-source project, but still student-friendly.
-
----
-
-
 # 🎓 LPU Smart CGPA & Percentile Estimator 
 ## Link- https://lpu-cgpa-calculator.streamlit.app/
 A **Streamlit-based web application** that helps Lovely Professional University (LPU) students **estimate TGPA and percentile ranges** using **relative grading trends**.  
